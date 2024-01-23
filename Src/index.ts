@@ -1,4 +1,4 @@
-let numbers: number [] = [1,2,3,4,5,6,7,67];
-let list = [2,4,5,6,7,8,8];
-numbers.forEach(n =>console.log(numbers.toString()))
+//tuples are useful when we have aonly two values  that is key value pairs
+let user: [number, string] = [1,"TECHRITOMA Inc"];
 
+user[0]
