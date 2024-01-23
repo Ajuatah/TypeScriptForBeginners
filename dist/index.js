@@ -1,2 +1,3 @@
+"use strict";
 console.log("Hello TECHRITOMA Inc");
-var age = 10;
+let age = 10;
