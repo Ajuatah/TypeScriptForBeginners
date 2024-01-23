@@ -1,4 +1,12 @@
-//tuples are useful when we have aonly two values  that is key value pairs
-let user: [number, string] = [1,"TECHRITOMA Inc"];
+//no need for this 
 
-user[0]
+const small = 1;
+const Medium = 2;
+const Large = 3;
+
+//use enums instead 
+
+enum  Size {small =0, Medium, Large}
+
+let mySize: Size = Size.Medium;
+console.log(mySize);
