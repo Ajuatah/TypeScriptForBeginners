@@ -1,18 +1,4 @@
-let sales : number = 123_456_789;
-
-let course: string = 'TypeScript';
-let is_published = true;
-let level;
-
-level = 1;
-
-level = "on3";
-
-function rander(document :any){
-    console.log(document);
-}
-
-function print(document :any){
-    console.log(document);
-}
+let numbers: number [] = [1,2,3,4,5,6,7,67];
+let list = [2,4,5,6,7,8,8];
+numbers.forEach(n =>console.log(numbers.toString()))
 
